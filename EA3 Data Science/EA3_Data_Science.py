@@ -8,7 +8,7 @@ import sys
 #Variablendeklaration
 frage1 = "Wann wurde Python entwickelt - am Anfang oder am Ende der 1990er Jahre? (Anfang/Ende)"
 frage2 = "Von welcher Person wurde Python entwickelt?"
-frage3 = "Unterstützt Python objektorientierte Programmierung? (Ja/Nein)"
+frage3 = "Unterstützt Python objektorientierte Programmierung?"
 punkte = 0
 richtig = "Sehr gut, das war korrekt!"
 falsch = "Das war leider falsch."
@@ -21,7 +21,7 @@ def punkteFunktion() :
 
 #Beginn des Quiz'
 print("Willkommen zu unserem heutigen kleinen Python-Quiz des Tages!")
-start = input("Möchten Sie beginnen? (Ja/Nein)")
+start = input("Möchten Sie beginnen?")
 start = start.lower()
 if start == "ja" or start == "j" or start == "yes" or start == "y":
     print("Vielen Dank, dass Sie an unserem Quiz teilnehmen. Wir beginnen mit der 1. Frage: ")
@@ -42,7 +42,7 @@ if start == "ja" or start == "j" or start == "yes" or start == "y":
     print("Abschließend noch die letzte Frage: ")
     antwort3 = input(frage3)
     antwort3.lower()
-    if antwort3 == "ja" :
+    if antwort3 == "ja" or antwort3 == "j" or "antwort3" == "yes" or antwort3 == "y":
         punkteFunktion()
     else :
         print(falsch)
