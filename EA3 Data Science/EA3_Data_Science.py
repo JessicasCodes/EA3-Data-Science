@@ -27,7 +27,6 @@ if start == "ja" or start == "j" or start == "yes" or start == "y":
     print("Vielen Dank, dass Sie an unserem Quiz teilnehmen. Wir beginnen mit der 1. Frage: ")
     antwort1 = input(frage1)
     antwort1 = antwort1.lower()
-    print(antwort1)
     if antwort1 == "anfang" : 
         punkteFunktion()
     else :
