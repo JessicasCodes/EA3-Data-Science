@@ -47,7 +47,7 @@ if start == "ja" or start == "j" or start == "yes" or start == "y":
         print(falsch)
     print("Vielen Dank für Ihre Teilnahma am kleinen Python-Quiz des Tages. Sie haben " + str(punkte) + " Fragen richtig beantwortet. Bis zum nächsten Mal!")
     sys.exit(0)
-elif start == "nein":
+elif start == "nein" or "n" in start:
     print("In Ordnung. Das Programm wird beendet. Bis zum nächsten Mal!")
     sys.exit(0)
 else:
